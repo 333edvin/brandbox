@@ -1,18 +1,19 @@
 'use client'
 import { motion } from "framer-motion";
 
-
 const PageTransition = () => {
   return (
     <motion.div
-      className="z-50"
-      initial={{ opacity: 0, x: "100%" }}  // Start from the right (off-screen)
-      animate={{ opacity: 1, x: 0 }}       // Slide in and fade in
-      exit={{ opacity: 0, x: "-100%" }}    // Slide out to the left (off-screen)
-      transition={{ duration: 1 }}          // Set the duration of the animation
+      className="fixed top-0 left-0 w-full h-full z-50"
+      
     >
-      <div className="w-full h-full bg-black flex justify-center items-center text-white">
-            BRANDBOX
+      <div className="relative w-full h-full bg-black flex flex-col justify-center items-center text-white ">
+        <div className="progress ">
+            <div className="overlay"></div>
+            <div className="left"></div>
+            <div className="right"></div>
+        </div>
+        <p className="absolute text-6xl  z-40">BRANDBOX</p>
       </div>
     </motion.div>
   );

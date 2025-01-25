@@ -16,7 +16,7 @@ export const TrainersSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 grid grid-cols-2 md:grid-cols-3 gap-8 items-center mt-16">
+      <div className="relative  grid grid-cols-2 md:grid-cols-3 gap-8 items-center mt-16">
         {/* Left Trainer Image */}
 
         <div className="relative flex justify-center order-2 md:order-1">
