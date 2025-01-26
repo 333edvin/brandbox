@@ -19,7 +19,7 @@ export const Hero = () =>{
 
     
 <TextReveal >
-        <h1 className={` py-5 text-[6rem] md:text-[10.5rem] font-bold text-[#FFEA00]  leading-[3.5rem] md:leading-none  z-0 text-gradient ${MontserratAlternates.className}`}>
+        <h1 className={` py-5 text-[6rem] md:text-[11.8rem] font-bold text-[#FFEA00]  leading-[3.5rem] md:leading-none  z-0 text-gradient ${MontserratAlternates.className}`}>
           BRAND
           <span className="block md:hidden">
             <br />
@@ -29,7 +29,7 @@ export const Hero = () =>{
 </TextReveal>
 <TextReveal >
 
-        <h1 className={`absolute top-0 py-5  text-[6rem] md:text-[10.5rem] font-bold text-[#FFEA00]  leading-[3.5rem] md:leading-none  z-20 outline-text   ${MontserratAlternates.className}`}>
+        <h1 className={`absolute top-0 py-5  text-[6rem] md:text-[11.8rem] font-bold text-[#FFEA00]  leading-[3.5rem] md:leading-none  z-20 outline-text   ${MontserratAlternates.className}`}>
           BRAND
           <span className="block md:hidden">
             <br />
@@ -61,7 +61,7 @@ export const Hero = () =>{
 </TextReveal>
         <div className="flex flex-row justify-between ">
           <OpacityReveal>
-        <button className="mt-6 px-3 py-2 md:px-6 md:py-3 bg-[#FFEA00] text-black font-semibold  hover:bg-yellow-500">
+        <button className="mt-6 px-3 py-2 md:px-6 md:py-3 text-[#FFEA00] border border-[#FFEA00] font-semibold hover:text-black hover:bg-[#FFEB22] hover:border hover:border-black transition">
           JOIN NOW
         </button>
           </OpacityReveal>

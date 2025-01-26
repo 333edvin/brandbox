@@ -42,7 +42,7 @@ export const FeaturesSection = () => {
         {data.map((item) => (
           <div key={item.id}>
           <CardReveal>
-          <div className={` bg-[${item.active}] p-3 md:p-5 rounded flex flex-col justify-between`} >
+          <div className={` bg-[${item.active}]  p-3 md:p-5 rounded flex flex-col justify-between`} >
               <Image src={item.img} width={50} height={50} alt="" className="rounded-full my-2"/>
               <div className={`space-y-3 ${item.active === "#FFEA00" ? "text-black" : "text-white"}`}>
                 <p className="text-sm font-semibold">{item.name}</p>

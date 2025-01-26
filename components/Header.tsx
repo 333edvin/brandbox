@@ -19,7 +19,7 @@ export default function Navbar() {
         {/* Logo on the left */}
         <div className="flex items-start">
           <Link href="/">
-            <Image src="/images/logo.png" alt="logo" width={100} height={100} />
+            <Image src="/images/logo.png" alt="logo" width={100} height={100} className="w-16 h-auto md:w-auto md:h-auto"/>
           </Link>
         </div>
 

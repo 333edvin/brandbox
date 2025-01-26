@@ -28,7 +28,7 @@ export const TrainersSection = () => {
               height={400}
               className="rounded-lg object-cover"
               />
-              <div className="absolute bottom-2  left-2 md:left-5 text-white text-2xl  rounded-full p-2 md:p-4 border border-[#FFEA00]">
+              <div className="absolute bottom-2  left-2 md:left-10 text-white text-2xl  rounded-full p-2 md:p-4 border border-[#FFEA00]">
                 <FaWhatsapp/>
               </div>
           </OpacityReveal>
@@ -59,7 +59,7 @@ export const TrainersSection = () => {
             height={400}
             className="rounded-lg object-cover"
             />
-            <div className="absolute bottom-2  left-2 md:left-5 text-white text-2xl  rounded-full p-2 md:p-4 border border-[#FFEA00]">
+            <div className="absolute bottom-2  left-2 md:left-10 text-white text-2xl  rounded-full p-2 md:p-4 border border-[#FFEA00]">
                 <FaWhatsapp/>
               </div>
         </OpacityReveal>
