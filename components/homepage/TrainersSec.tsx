@@ -1,8 +1,10 @@
+'use client'
 import Image from "next/image";
 import TextReveal from "../animations/textReveal";
 import OpacityReveal from "../animations/opacityReveal";
 import CardReveal from "../animations/cardReveal";
 import {FaWhatsapp} from 'react-icons/fa'
+import Link from "next/link";
 export const TrainersSection = () => {
   return (
     <section className="relative bg-black text-white py-5 px-6 md:px-16 md:py-12 lg:px-24">
@@ -29,7 +31,9 @@ export const TrainersSection = () => {
               className="rounded-lg object-cover"
               />
               <div className="absolute bottom-2  left-2 md:left-10 text-white text-2xl  rounded-full p-2 md:p-4 border border-[#FFEA00]">
+                <Link href="https://wa.me/1XXXXXXXXXX?" target="_blank">
                 <FaWhatsapp/>
+                </Link>
               </div>
           </OpacityReveal>
         </div>
@@ -41,9 +45,11 @@ export const TrainersSection = () => {
               <h2 className="text-xl md:text-2xl font-bold text-[#FFEA00]">
                 MOST EXPERT TRAINERS
               </h2>
+              <Link href="https://wa.me/1XXXXXXXXXX?" target="_blank">
               <button className="mt-4 bg-[#FFEA00] text-black font-semibold py-2 px-6 hover:text-[#FFEA00] hover:bg-black hover:border hover:border-[#FFEA00] transition">
                 CONTACT NOW
               </button>
+              </Link>
             </div>
           </CardReveal>
         </div>
@@ -60,7 +66,9 @@ export const TrainersSection = () => {
             className="rounded-lg object-cover"
             />
             <div className="absolute bottom-2  left-2 md:left-10 text-white text-2xl  rounded-full p-2 md:p-4 border border-[#FFEA00]">
+                <Link href="https://wa.me/1XXXXXXXXXX?" target="_blank">
                 <FaWhatsapp/>
+                </Link>
               </div>
         </OpacityReveal>
         </div>

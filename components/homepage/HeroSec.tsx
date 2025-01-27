@@ -1,7 +1,9 @@
+'use client'
 import Image from "next/image"
 import { Montserrat_Alternates} from "next/font/google";
 import TextReveal from "../animations/textReveal";
 import OpacityReveal from "../animations/opacityReveal";
+import  Link  from 'next/link';
 
 const MontserratAlternates = Montserrat_Alternates({
     weight: ["100", "200", "400", "700"],
@@ -61,9 +63,11 @@ export const Hero = () =>{
 </TextReveal>
         <div className="flex flex-row justify-between ">
           <OpacityReveal>
+          <Link href="https://wa.me/1XXXXXXXXXX?" target="_blank">
         <button className="mt-6 px-3 py-2 md:px-6 md:py-3 text-[#FFEA00] border border-[#FFEA00] font-semibold hover:text-black hover:bg-[#FFEB22] hover:border hover:border-black transition">
           JOIN NOW
         </button>
+          </Link>
           </OpacityReveal>
         {/* <button className="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700">
           <i className="fas fa-play text-yellow-400 text-2xl"></i>

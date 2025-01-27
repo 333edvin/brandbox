@@ -1,4 +1,6 @@
+'use client'
 import Image from "next/image";
+import Link from "next/link";
 
 export const CallToAction = () => {
     return (
@@ -11,9 +13,11 @@ export const CallToAction = () => {
             Join our gym today and achieve your fitness goals with state-of-the-art equipment and expert trainers.
           </h2>
           <div className="flex justify-end ">
+            <Link href="https://wa.me/1XXXXXXXXXX?" target="_blank">
           <button className="bg-black text-sm md:text-xl p-4 md:p-10 text-[#FFEA00] border border-[#FFEA00] font-semibold hover:text-black hover:bg-[#FFEB22] hover:border hover:border-black transition">
             JOIN NOW
           </button>
+            </Link>
           </div>
         </div>
       </section>

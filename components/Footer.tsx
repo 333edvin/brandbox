@@ -1,3 +1,4 @@
+'use client'
 import {FaWhatsapp, FaFacebook,FaInstagram} from 'react-icons/fa'
 import {CallToAction} from '@/components/CTA'
 export const Footer = () =>{
