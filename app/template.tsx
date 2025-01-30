@@ -15,7 +15,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
   }, []);
 
   return (
-    <div className="relative h-screen ">
+    <div className="relative  ">
       {showTransition && <PageTransition />}
       {!showTransition && children}
     </div>

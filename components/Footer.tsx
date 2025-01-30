@@ -1,11 +1,11 @@
 'use client'
 import {FaWhatsapp, FaFacebook,FaInstagram} from 'react-icons/fa'
-import {CallToAction} from '@/components/CTA'
+
 export const Footer = () =>{
     return(
-        <>
+        <footer className="relative">
 
-       <CallToAction/>
+       
         <div className=" bg-gray-800 text-gray-500 text-sm p-5">
 
             <div className="flex flex-col md:flex-row justify-between ">
@@ -33,6 +33,6 @@ export const Footer = () =>{
 
         </div>
         <p className=" w-full bg-gray-900 text-center text-xs py-2">Copyright @ 2024 conveb</p>
-        </>
+        </footer>
     )
 }

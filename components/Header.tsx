@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { FiMenu, FiX } from 'react-icons/fi';
 import {FaWhatsapp,FaInstagram} from 'react-icons/fa'
+import {TopNav} from '@/components/TopNav'
 export default function Navbar() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
@@ -15,33 +16,34 @@ export default function Navbar() {
 
   return (
     <header className="fixed top-0 left-0 w-full bg-black/30 z-40">
+      <TopNav/>
       <nav className="flex items-center justify-between px-6 md:px-20 py-4 z-40">
         {/* Logo on the left */}
         <div className="flex items-start">
           <Link href="/">
-            <Image src="/images/logo.png" alt="logo" width={70} height={70} className="w-16 h-auto md:w-auto md:h-auto"/>
+            <Image src="/images/logo.png" alt="logo" width={62} height={62} className="w-16 h-auto md:w-auto md:h-auto"/>
           </Link>
         </div>
 
         {/* Centered Menu */}
         <ul className="hidden md:flex gap-8 text-white flex-grow justify-center">
           <li>
-            <Link href="#" className="hover:text-orange-400">
+            <Link href="/" className="hover:text-yellow-400">
               Home
             </Link>
           </li>
           <li>
-            <Link href="#" className="hover:text-orange-400">
+            <Link href="/about" className="hover:text-yellow-400">
               About
             </Link>
           </li>
           <li>
-            <Link href="#" className="hover:text-orange-400">
+            <Link href="/trainer" className="hover:text-yellow-400">
               Trainers
             </Link>
           </li>
           <li>
-            <Link href="#" className="hover:text-orange-400">
+            <Link href="#" className="hover:text-yellow-400">
               contact
             </Link>
           </li>
@@ -50,7 +52,7 @@ export default function Navbar() {
         {/* Right Side Links */}
         <div className="hidden md:flex gap-4 ml-5">
           <Link href="/"><FaInstagram className="text-xl"/></Link>
-          <Link href="/"><FaWhatsapp className="text-xl"/></Link>
+          <Link href="https://wa.me/1XXXXXXXXXX?"><FaWhatsapp className="text-xl"/></Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -75,28 +77,18 @@ export default function Navbar() {
           >
             <ul className="space-y-6">
               <li>
-                <Link href="#" className="block py-2 text-lg" onClick={toggleDrawer}>
+                <Link href="/" className="block py-2 text-lg" onClick={toggleDrawer}>
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="#" className="block py-2 text-lg" onClick={toggleDrawer}>
+                <Link href="/about" className="block py-2 text-lg" onClick={toggleDrawer}>
                   About
                 </Link>
               </li>
               <li>
-                <Link href="#" className="block py-2 text-lg" onClick={toggleDrawer}>
-                  Services
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="block py-2 text-lg" onClick={toggleDrawer}>
-                  Gallery
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="block py-2 text-lg" onClick={toggleDrawer}>
-                  FAQ
+                <Link href="/trainer" className="block py-2 text-lg" onClick={toggleDrawer}>
+                  Trainer
                 </Link>
               </li>
               <li>

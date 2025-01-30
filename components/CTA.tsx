@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const CallToAction = () => {
     return (
-      <section className="relative bg-black text-white py-5 flex justify-center mb-10">
+      <div className="relative bg-black text-white py-5 flex justify-center mb-10">
         <div className="mx-0 md:mx-20">
         <Image src='/images/cta.svg' width={1000} height={300} alt="cta" className="w-full h-52 md:h-full object-cover md:object-contain "/>
         </div>
@@ -20,7 +20,7 @@ export const CallToAction = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </div>
     );
   };
   

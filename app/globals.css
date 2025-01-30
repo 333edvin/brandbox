@@ -20,11 +20,11 @@ body{
   -webkit-text-stroke: .8px #ffea00; /* Outlined text stroke */
   text-stroke: 2px #ffea00; /* For non-Webkit browsers */
 }
-.outline-txt-loader{
+.outline-txt-bw{
   
   color: transparent;
-  -webkit-text-stroke: 1px #060606; /* Outlined text stroke */
-  text-stroke: 2px #060606; /* For non-Webkit browsers */
+  -webkit-text-stroke: 1px #3f3f3f; /* Outlined text stroke */
+  text-stroke: 1px #3f3f3f; /* For non-Webkit browsers */
 }
 
 .spc{
