@@ -6,7 +6,7 @@ import { AboutTransform } from "@/components/aboutpage/abt-transform";
 
 const page = () =>{
 return(
-    <div className="mt-20 px-6 md:px-20 space-y-14 md:space-y-32">
+    <div className="mt-28 px-6 md:px-20 space-y-14 md:space-y-32">
         <AboutHero/>
         <MeetTrainer/>
         <AboutShape/>

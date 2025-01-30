@@ -36,7 +36,7 @@ export const FeaturesSection = () => {
 
   return (
     <section className="bg-black text-white py-5 px-6 md:px-16 lg:px-24">
-      <p className="text-4xl font-bold my-10">
+      <p className="text-4xl font-bold my-10 text-end">
         <span className="text-[#FFEA00]">
         FEEL GREAT.
         </span>BODY AND MIND

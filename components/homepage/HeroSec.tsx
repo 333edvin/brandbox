@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image"
 import { Montserrat_Alternates} from "next/font/google";
-import { Bebas_Neue} from "next/font/google";
+// import { Bebas_Neue} from "next/font/google";
 import TextReveal from "../animations/textReveal";
 import OpacityReveal from "../animations/opacityReveal";
 import  Link  from 'next/link';
@@ -10,10 +10,10 @@ const MontserratAlternates = Montserrat_Alternates({
     weight: ["100", "200", "400", "700"],
     subsets: ['cyrillic'],
   })
-  const BebasNeue = Bebas_Neue({
-    weight: ["400"],
-    subsets: ['latin'],
-  })
+  // const BebasNeue = Bebas_Neue({
+  //   weight: ["400"],
+  //   subsets: ['latin'],
+  // })
   
 
 export const Hero = () =>{
@@ -42,7 +42,7 @@ export const Hero = () =>{
                   </h1>
           </TextReveal>
           <TextReveal >
-          <p className={`${BebasNeue.className} text-2xl md:text-5xl mx-2 tracking-widest`}>FITNESS</p>
+          <p className={` text-2xl md:text-5xl mx-2 tracking-widest`}>FITNESS</p>
           </TextReveal> 
         </div>
 

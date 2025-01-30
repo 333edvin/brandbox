@@ -42,7 +42,7 @@ export const AboutShape: React.FC = () => {
         <div className="relative uppercase">
           <p className="text-8xl outline-txt-bw font-bold">Shape</p>
           <p className="absolute inset-0 flex justify-center items-center text-2xl font-semibold mt-2">
-            Better Habit's
+            Better Habit&apos;s
           </p>
           <p className="absolute top-0 left-0 md:left-16 text-6xl font-light">+</p>
         </div>

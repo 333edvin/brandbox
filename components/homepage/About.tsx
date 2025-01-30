@@ -1,4 +1,5 @@
 'use client'
+import Image from "next/image";
 import { useState } from "react";
 import { FaPlay } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
@@ -36,7 +37,9 @@ export const About = () => {
           onClick={openModal}
         >
           {/* Image as placeholder for video */}
-          <img
+          <Image
+          width={1100}
+          height={500}
             src="/images/aboutImg.jpg"
             alt="Video Placeholder"
             className="w-full h-auto rounded-lg shadow-lg"
