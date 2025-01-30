@@ -43,8 +43,8 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href="#" className="hover:text-yellow-400">
-              contact
+            <Link href="/gallery" className="hover:text-yellow-400">
+              Gallery
             </Link>
           </li>
         </ul>
@@ -92,8 +92,8 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="block py-2 text-lg" onClick={toggleDrawer}>
-                  Contact
+                <Link href="/gallery" className="block py-2 text-lg" onClick={toggleDrawer}>
+                  Gallery
                 </Link>
               </li>
             </ul>

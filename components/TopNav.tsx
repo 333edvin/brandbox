@@ -8,7 +8,7 @@ export const TopNav = () => {
       {/* Left Section: Location */}
       <div className="flex items-center space-x-2">
         <MapPin size={16} className="text-yellow-400" />
-        <p>Pangarappilli, Chelakkara</p>
+        <p>Chelakkara</p>
       </div>
       
       {/* Right Section: Contact Info */}
